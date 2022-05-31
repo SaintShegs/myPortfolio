@@ -166,6 +166,14 @@ ul{
     font-family: 'Clicker Script', cursive;
     font-size: 40px;
 }
+/* @keyframes spin {
+    from {
+        transform:translateY(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+} */
 .aside .logo a::before{
     content: '';
     position: absolute;
@@ -175,6 +183,7 @@ ul{
     border-left: 5px solid var(--skin-color);
     bottom: 0;
     left: 0;
+    /* animation: spin 5s infinite; */
 }
 .aside .logo a::after{
     content: '';
@@ -185,6 +194,7 @@ ul{
     border-right: 5px solid var(--skin-color);
     top: 0;
     right: 0;
+    animation: spin;
 }
 
 .aside .nav-toggler{
