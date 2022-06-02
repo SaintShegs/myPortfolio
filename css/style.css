@@ -779,7 +779,21 @@ box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 
 .home .home-img{
+    display: block;
+    margin: auto;
+    flex: 0 0 100%;
+    max-width:100%;
+    position: relative;
+    margin-top: 20px;
+  
+}
+.home-img::before, .home-img::after{
     display: none;
+}
+.home .home-img img {
+    object-fit: contain;
+    max-width: 100%;
+    float: left;
 }
 
 
