@@ -374,6 +374,7 @@ h3.my-profession{
     color: var(--text-black-700);
     margin-left: 4px;
     display: inline-block;
+    word-wrap: break-word;
 }
 .about .about-content .personal-info .buttons{
     margin-top: 30px;
